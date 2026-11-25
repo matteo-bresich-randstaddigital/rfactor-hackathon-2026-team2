@@ -1,0 +1,20 @@
+{
+  "challenge": "With or Without You (U2) - Smart Meeting Assistant",
+  "user_profile": {
+    "id": "USR-001",
+    "name": "Marco Valeri",
+    "role": "Senior Tech Lead",
+    "department": "Engineering & AI",
+    "seniority": "Senior",
+    "hourly_cost_eur": 85
+  },
+  "meeting_invites": [
+    {
+      "meeting_id": "MTG-01",
+      "title": "Escalation Produzione - Cliente Enterprise BancaNova",
+      "organizer": {"name": "Roberto Rossi", "role": "Managing Director", "is_vip_or_client": true},
+      "start_time": "2026-11-27T09:30:00",
+      "duration_minutes": 45
+    }
+  ]
+}

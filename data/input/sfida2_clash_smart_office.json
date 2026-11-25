@@ -1,0 +1,11 @@
+{
+  "challenge": "Should I Stay or Should I Go? (The Clash) - Smart Office Planner",
+  "user_profile": {
+    "id": "EMP-042",
+    "name": "Sofia Marchetti",
+    "role": "Junior Fullstack Developer"
+  },
+  "weekly_agenda": [
+    {"day": "Lunedì", "main_activity": "Focused Coding", "requires_collaboration": false}
+  ]
+}

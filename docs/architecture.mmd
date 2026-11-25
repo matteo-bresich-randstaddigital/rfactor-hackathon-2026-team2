@@ -1,0 +1,12 @@
+graph TD
+    %% Architettura Enterprise Generica
+    A[Frontend (Next.js / React)] -->|JSON| B(API Gateway)
+    B --> C{Rule Engine Deterministic}
+    C -->|Filtro superato| D[AI Agent Orchestrator]
+    C -->|Regole base| E[Risposta Immediata]
+    D -->|PII Masking| F(LLM Privato / Azure OpenAI)
+    D --> G[(Vector DB / Graph DB)]
+    D --> H[(Audit & Tracing DB)]
+    
+    style F fill:#f9f,stroke:#333,stroke-width:2px
+    style G fill:#bbf,stroke:#333,stroke-width:2px

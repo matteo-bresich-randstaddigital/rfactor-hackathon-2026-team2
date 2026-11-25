@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "properties": {
+    "score": {
+      "type": "integer",
+      "description": "Punteggio da 0 a 100"
+    },
+    "recommended_action": {
+      "type": "string",
+      "enum": ["Accept", "Decline", "Delegate", "Propose_New_Time"]
+    },
+    "reasoning": {
+      "type": "string",
+      "description": "Breve motivazione per la UI"
+    },
+    "draft_message": {
+      "type": "string",
+      "description": "Bozza dell'email o del messaggio Slack"
+    }
+  },
+  "required": ["score", "recommended_action", "reasoning"]
+}

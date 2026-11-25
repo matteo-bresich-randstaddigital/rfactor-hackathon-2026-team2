@@ -1,0 +1,15 @@
+{
+  "challenge": "Stand By Me (Ben E. King) - AI Personal Assistant",
+  "manager_profile": {
+    "name": "Francesca Bellini",
+    "role": "Director of Digital Delivery"
+  },
+  "emails_database": [
+    {
+      "email_id": "EML-001",
+      "sender": {"name": "Roberto Rossi (CEO)", "category": "VIP_Executive"},
+      "subject": "URGENTE: Numeri chiusura Q4",
+      "status": "unread"
+    }
+  ]
+}
